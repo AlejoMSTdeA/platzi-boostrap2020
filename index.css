@@ -1,0 +1,70 @@
+.text-platzi{
+  color: #97c93e !important;
+}
+
+.btn-platzi{
+  background-color: #97c93e;
+  color: white;
+}
+
+.btn-platzi:hover{
+  background-color: #82ad36;
+  color: white;
+}
+
+.btn-outline-platzi{
+  color: white;
+  border-color: #97c93e;
+}
+
+.btn-outline-platzi:hover{
+  color: #97c93e;
+  background-color: white;
+}
+
+
+#header img{
+  width: 80px;
+}
+
+#main .carousel-inner img{
+  max-height: 70vh; /*70% del alto de la pantalla disponible*/
+  object-fit: cover; /*da proporción a la imagen*/
+  filter: grayscale(70%); /*decolora las imágenes*/
+}
+
+#main .carousel-item {
+  transition: transform 1s ease, opacity .5s ease-out;
+}
+
+#carousel {
+  position: relative;/*para que el overlay se expanda por todo el alto y el ancho del carousel*/
+}
+
+#carousel .overlay{
+  position: absolute;/*para que el overlay se expanda por todo el alto y el ancho del carousel*/
+  top: 0;/*aca definimos que no tenga espacios en ninguna direccion*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#place-time {
+background-color: #343a40;
+color: white;
+}
+
+#place-time img{
+  max-width: 100%; /*ocupa como maximo el 100% del contenedor*/
+}
+
+
+#footer{
+  background: linear-gradient(90deg,#1c3643,#273b47 50%,#1e5372);
+}
+
+#footer a{
+  color: white;
+}
